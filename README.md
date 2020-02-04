@@ -11,7 +11,6 @@ You should now be able to access the server at http://127.0.0.1:8000/.
 
 ## Populating db with club data and creating user *jen* (this should only happen once)
 1. run `py manage.py shell` to enter python shell
-In python shell...
 2. run `from pennclubslite.scraper import store_clubs`
 3. run `store_clubs()` to pull club data from Online Clubs With Penn and store them in database
 4. run `from pennclubslite.models import CustomUser, Club, Category, Comment`
