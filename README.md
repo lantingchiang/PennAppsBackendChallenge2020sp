@@ -7,7 +7,7 @@ This project is structured with the standard Django project setup.
 2. run `py manage.py migrate`
 3. run `py manage.py runserver` to start the server
 
-You should now be able to access the server at `http://127.0.0.1:8000/`.
+You should now be able to access the server at [http://127.0.0.1:8000/].
 
 ## Populating db with club data and creating user *jen* (this should only happen once)
 1. run `py manage.py shell` to enter python shell
@@ -25,7 +25,7 @@ You can view the clubs stored by running `Club.objects.all()` or querying for sp
 ### Accessing the admin site
 1. run `py manage.py createsuperuser`
 2. set the username, password, email as prompted
-3. the admin site can be accessed at `http://127.0.0.1:8000/admin`
+3. the admin site can be accessed at [http://127.0.0.1:8000/admin]
 
 ### Testing POST requests with Postman
 It's assumed that POST request data will be submitted through a form. In Postman, test by sending key-value pairs 
