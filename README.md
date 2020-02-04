@@ -75,7 +75,7 @@ Using a database allows us to store large amounts of data and model the relation
         <td>JSON containing club information</td> 
     </tr>
     <tr>
-        <td><code>'/api/clubs'</code></td>
+        <td><code>'/api/clubs/'</code></td>
         <td><code>'POST'</code></td>
         <td>
             <ul>
