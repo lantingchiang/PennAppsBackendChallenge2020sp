@@ -55,7 +55,7 @@ ROOT_URLCONF = 'PennLabsChallenge.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -71,6 +71,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'PennLabsChallenge.wsgi.application'
 
 AUTH_USER_MODEL = 'pennclubslite.CustomUser'
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.signed_cookies'
 
 
 # Database
@@ -121,3 +123,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+

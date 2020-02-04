@@ -95,6 +95,7 @@ def store_tags(tags, club):
             new_category = Category(tag=t)
             new_category.save()
             new_category.clubs.add(club)
+    return
 
 def store_clubs():
     """
