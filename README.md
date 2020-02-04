@@ -89,7 +89,7 @@ Using a database allows us to store large amounts of data and model the relation
     <tr>
         <td><code>'/api/user/:username/'</code></td>
         <td><code>'GET'</code></td>
-        <td>NA</td>
+        <td><code>username</code>: the username of this User instance to query for</td>
         <td>JSON containing username and registered email</td> 
     </tr>
     <tr>
